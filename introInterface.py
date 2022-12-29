@@ -27,7 +27,7 @@ def intro():
     addHash = Button(janela, text="GERAR HASH ",command=addView)
     addHash.place(x=130, y=100)
 
-janela.mainloop()
+    janela.mainloop()
 
 
 intro()
