@@ -1,7 +1,7 @@
 # RainbowTable
 Este é um projeto que visa criar uma ferramenta de quebra de senhas usando técnicas de RainbowTable em Python. Nesta implementação, as senhas utilizadas são números de telefone e personagens de Star Wars.
 
-Para começar a usar o RainbowTable, basta clonar este repositório e instalar as dependências necessárias com o comando pip install -r requirements.txt. Em seguida, você pode executar o script principal introInterface.py. O código roda sob uma interface feita em TKinter.
+Para começar a usar o RainbowTable, basta clonar este repositório e instalar as dependências necessárias com o comando pip install -r requirements.txt. Em seguida, você pode executar o script principal *introInterface.py*. O código roda sob uma interface feita em TKinter.
 
 O RainbowTable funciona da seguinte maneira:
 
