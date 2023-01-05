@@ -9,3 +9,6 @@ O RainbowTable funciona da seguinte maneira:
 2. Armazena a tabela em um arquivo para uso futuro.
 3. Quando é dada uma senha para ser quebrada, o RainbowTable aplica a mesma função de hash e função de redução que foram usadas na geração da tabela. Se a senha for encontrada na tabela, ela é exibida. Caso contrário, o processo é repetido até que a senha seja encontrada ou até que todas as entradas da tabela sejam verificadas.
 Esperamos que você aproveite ao máximo o RainbowTable! Se tiver alguma dúvida ou sugestão, não hesite em abrir uma issue ou enviar um pull request.
+
+
+Se tiver alguma dúvida ou sugestão, não hesite em abrir uma issue ou enviar um pull request.
