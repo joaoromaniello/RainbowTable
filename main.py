@@ -523,6 +523,21 @@ def configDataFiles():
     generateNumberTable()
 
 
+def generateDynamicTablesOption2():
+
+    for pw in probablePasswordsSW:
+        for word in getAllCombinations(pw):
+            auxDict = dict()
+            hashed = hashWord(word)
+            MS3 = hashed[0:3]
+            file = open("Data/"+MS3+"Table.txt", 'a')
+            auxDict["pw"] = word
+            auxDict["hash"] = hashed
+            file.write("Pass:" + auxDict['pw'] + "\t|\tHash:" + auxDict['hash'] + '\n')
+
+    file.close()
+
+
 def generateDynamicTables():
 
     for pw in probablePasswordsSW:
@@ -545,7 +560,6 @@ def generateDynamicTables():
         file.write("Pass:" + number + "\t|\tHash:" + hashed + '\n')
 
     file.close()
-
 
 
 

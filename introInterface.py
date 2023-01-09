@@ -29,5 +29,4 @@ def intro():
 
     janela.mainloop()
 
-
 intro()

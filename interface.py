@@ -9,16 +9,17 @@ def openHashInterface():
     def close_window():
         janela.destroy()
 
-
+    #ALTERAR ESSSA FUNÇÃO PARA TESTES MENORES
     def printInput():
         inp = inputtxt.get(1.0, "end-1c")
 
+
         #TESTE EM SALA (BANCO DE DADOS MENORES
-        result = findHashInFile(inp,"rainbowTable.txt")
+        #result = findHashInFile(inp,"rainbowTable.txt")
 
         #TESTE EM GRANDE QUANTIDADE DE DADOS (ANTES DE RODAR, CHAMAR A FUNÇÃO generateDynamicTables() NA CLASSE MAIN)
-        #MS3 = inp[0:3]
-        #result = findHashInFile(inp, MS3+"Table.txt")
+        MS3 = inp[0:3]
+        result = findHashInFile(inp, MS3+"Table.txt")
 
 
         if result == None:
